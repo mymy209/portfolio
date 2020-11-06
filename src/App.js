@@ -1,17 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import { Route, Switch } from 'react-router-dom';
+
+//components
 import NavBar from './components/NavBar/NavBar';
+
+//pages
+import HomePage from './pages/Home/HomePage';
 
 function App() {
   return (
     <div className="App">
       <NavBar/>
-        <div className="title">
-          <h1>
-            Hello, my name is Myra Yamazaki.<br/>
-            I'm a full-stack software engineer based on Palmdale, CA. 
-          </h1>
-        </div>
+      <main>
+        <Switch>
+          <Route exact path='/' render={() => <HomePage/>}></Route>
+        </Switch>
+      </main>
+      
     </div>
   );
 }

@@ -1,0 +1,26 @@
+.title {
+   padding-top: 5%;
+   letter-spacing: 4px;
+   animation: fadeInAnimation ease 5s;
+   color: gray;
+}
+  
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
+
+.body {
+   display: flex; 
+   justify-content: space-around;
+}
+
+p {
+   width: 50%;
+   line-height: 200%;
+   color: gray;
+}

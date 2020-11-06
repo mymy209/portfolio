@@ -1,0 +1,14 @@
+.navWrapper {
+    padding-top: 3%;
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+.nav {
+    text-decoration: none;
+    color: black;
+}
+
+.nav:hover {
+    color: pink;
+}
