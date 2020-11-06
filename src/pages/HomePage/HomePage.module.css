@@ -15,14 +15,14 @@
 } 
 
 .body {
-   display: flex; 
-   justify-content: center;
+   display: grid; 
+   grid-template-columns: 2fr 3fr;
 }
 
 .about {
-   padding-top: 10px;
+   padding-top: 3%;
    padding-left: 10%;
-   width: 35%;
+   width: 60%;
    line-height: 200%;
    color: #4B4C4C;
    text-align: left;
@@ -55,12 +55,13 @@ hr {
 
 .imageContainer {
    position: relative;
+   padding-left: 50%;
 }
 
 .box {
    position: absolute;
-   top: 20px;
-   right: 40px;
+   top: 6%;
+   right: 15%;
    width: 190px; 
    height: 335px;
    border: solid 5px #BDC9BD;
@@ -75,18 +76,32 @@ hr {
    bottom: -120px;
 }
 
-img {
+.pfp {
    position: relative;
    z-index: 2;
 }
 
+.skillsContainer {
+   width: 60%;
+   grid-column-start: 2; 
+   grid-column-end: 3;
+   padding-left: 10%;
+   padding-top: 3%;
+}
+
 .skills {
    display: grid;
-   grid-template-columns: auto auto;
+   grid-template-columns: 1fr 1fr;
+}
+
+.emailIcon {
+   padding-left: 52%;
 }
 
 .email {
    display: flex;
    flex-direction: column;
    justify-content: center;
+   color: #4B4C4C;
 }
+

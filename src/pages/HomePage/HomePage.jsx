@@ -10,10 +10,10 @@ function HomePage() {
             </h1>
             <div className={styles.body}>
                 <div className={styles.imageContainer}>
-                    <img src="https://i.imgur.com/VTk76ea.jpg" width="200px"/>
-                    <div className={styles.box}></div>
+                    <img className={styles.pfp} src="https://i.imgur.com/VTk76ea.jpg" width="200px"/>
+                    <div className={styles.box}/>
                     <div className={styles.contact}>
-                        <img src="https://i.imgur.com/xMwUsuL.png" width="80px"></img>
+                        <img className={styles.emailIcon} src="https://i.imgur.com/xMwUsuL.png" width="80px"></img>
                         <span className={styles.email}><p>myramaronhime@gmail.com</p></span>
                     </div>
                 </div>
@@ -22,24 +22,24 @@ function HomePage() {
                     <hr/>
                     <p>I am a software developer eager to share her passion for technology-based entertainment such as games and animation. Sharing my unique perspective and ideas with others drives me to bring innovation to digital products. It’s this satisfying and rewarding process that makes me want to challenge myself and enables me to push my limits as a software developer to fill this world with joy!</p>
                 </div>
-            </div>
-            <div className={styles.skillsContainer}>
-                <h3>Skills</h3>
-                <hr/>
-                <ul>
-                    <div className={styles.skills}>
-                        <li>JavaScript</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>NodeJS</li>
-                        <li>ReactJS</li>
-                        <li>Materialize</li>
-                        <li>MongoDB</li>
-                        <li>Python</li>
-                        <li>Django</li>
-                        <li>PostgreSQL</li>
-                    </div>
-                </ul>
+                <div className={styles.skillsContainer}>
+                    <h3>Skills</h3>
+                    <hr/>
+                    <ul>
+                        <div className={styles.skills}>
+                            <li>JavaScript</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>NodeJS</li>
+                            <li>ReactJS</li>
+                            <li>Materialize</li>
+                            <li>MongoDB</li>
+                            <li>Python</li>
+                            <li>Django</li>
+                            <li>PostgreSQL</li>
+                        </div>
+                    </ul>
+                </div>
             </div>
         </div>
     );

@@ -1,6 +1,7 @@
 .text {
     width: 35%;
-    padding-left: 10%;
+    padding-left: 3%;
+    padding-right: 10%;
     text-align: left;
     color: #4B4C4C;
 }
@@ -13,7 +14,7 @@ hr {
 .container {
     display: flex; 
     justify-content: center;
-    padding: 40px;
+    padding: 40px 40px 40px 0px;
 }
 
 .link {
@@ -40,5 +41,21 @@ hr {
   
 .linkLtr:hover::before {
     width: 100%;
+}
+
+button {
+    margin: 8% 2% 0% 2%;
+    width: 4%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+button:hover {
+    background-color: #c7b2a691;
+    transition: 0.5s;
 }
 
