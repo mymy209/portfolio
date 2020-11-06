@@ -1,0 +1,10 @@
+.title {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    letter-spacing: 4px;
+}
+
+.container {
+    display: flex; 
+    justify-content: center;
+}

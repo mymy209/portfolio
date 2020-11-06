@@ -1,0 +1,44 @@
+.text {
+    width: 35%;
+    padding-left: 10%;
+    text-align: left;
+    color: #4B4C4C;
+}
+
+hr {
+    border-color: #EEE5E0;
+    background-color: #EEE5E0;
+}
+
+.container {
+    display: flex; 
+    justify-content: center;
+    padding: 40px;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: smaller;
+    position: relative;
+    color: #97877e;
+    line-height: 200%;
+}
+
+.link::before {
+    transition: 300ms;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background-color: #c7b2a6;
+}
+  
+.linkLtr::before {
+    width: 0%;
+    bottom: -5px;
+}
+  
+.linkLtr:hover::before {
+    width: 100%;
+}
+

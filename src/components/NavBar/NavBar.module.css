@@ -2,13 +2,28 @@
     padding-top: 3%;
     display: flex; 
     justify-content: space-evenly;
+
 }
 
 .nav {
     text-decoration: none;
     color: black;
+    position: relative;
 }
 
-.nav:hover {
-    color: pink;
-}
+.nav::before {
+    transition: 300ms;
+    height: 3px;
+    content: "";
+    position: absolute;
+    background-color: #BDC9BD;
+  }
+  
+  .navLtr::before {
+    width: 0%;
+    bottom: -10px;
+  }
+  
+  .navLtr:hover::before {
+    width: 100%;
+  }
