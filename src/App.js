@@ -8,7 +8,6 @@ import NavBar from './components/NavBar/NavBar';
 import HomePage from './pages/HomePage/HomePage';
 import ResumePage from './pages/ResumePage/ResumePage';
 import WorksPage from './pages/WorksPage/WorksPage';
-import SkillsPage from './pages/SkillsPage/SkillsPage';
 
 const WORKS = [
   {
