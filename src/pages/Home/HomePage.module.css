@@ -1,8 +1,8 @@
 .title {
    padding-top: 5%;
+   padding-bottom: 5%;
    letter-spacing: 4px;
    animation: fadeInAnimation ease 5s;
-   color: gray;
 }
   
 @keyframes fadeInAnimation { 
@@ -16,11 +16,13 @@
 
 .body {
    display: flex; 
-   justify-content: space-around;
+   justify-content: center;
 }
 
 p {
-   width: 50%;
+   padding-top: 3%;
+   padding-left: 10%;
+   width: 35%;
    line-height: 200%;
-   color: gray;
+   color: #4B4C4C;
 }
