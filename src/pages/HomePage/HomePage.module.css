@@ -60,9 +60,9 @@ hr {
 
 .box {
    position: absolute;
-   top: 6%;
-   right: 15%;
-   width: 190px; 
+   top: 7%;
+   right: 14%;
+   width: 195px; 
    height: 335px;
    border: solid 5px #BDC9BD;
    z-index: 1;
@@ -72,8 +72,8 @@ hr {
    display: flex;
    justify-content: flex-start;
    position: absolute; 
-   left: -60px;
-   bottom: -120px;
+   right: 5%;
+   bottom: -40%;
 }
 
 .pfp {
@@ -95,7 +95,7 @@ hr {
 }
 
 .emailIcon {
-   padding-left: 52%;
+   padding-left: 55%;
 }
 
 .email {
@@ -103,5 +103,57 @@ hr {
    flex-direction: column;
    justify-content: center;
    color: #4B4C4C;
+}
+
+@media screen and (max-width: 800px) {
+   .title {
+      padding-top: 4%;
+      padding-bottom: 4%;
+      letter-spacing: 2px;
+      animation: fadeInAnimation ease 5s;
+   }
+   
+   .body {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .imageContainer {
+      display: flex; 
+      justify-content: center;
+      padding-left: 0;
+   }
+
+   .pfp {
+      width: 50%;
+      position: relative;
+   }
+
+   .box {
+      width: 52%; 
+      height: 100%;
+      right: 30%;
+   }
+
+   .contact {
+      display: flex;
+      justify-content: flex-start;
+   }
+
+   .about {
+      padding-top: 35%;
+      width: 80%;
+      text-align: center;
+   }
+
+   .skillsContainer {
+      text-align: center;
+      text-align: center;
+      width: 80%;
+   }
+  
+   .emailIcon {
+      margin-left: -5%;
+   }
 }
 

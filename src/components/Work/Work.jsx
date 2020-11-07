@@ -26,11 +26,10 @@ class Work extends React.Component {
     }
 
     render () {
-        console.log(this.props.work.image);
         return (
             <div className={styles.container}>
                 <button onClick={this.previous}><img src="https://i.imgur.com/9qRD2PJ.png" width="100%"/></button>
-                <img src={this.props.work.image[this.state.index]} width="30%" alt="screenshot"/>
+                <img className={styles.projectImg} src={this.props.work.image[this.state.index]} width="30%" alt="screenshot"/>
                 <button onClick={this.next}><img src="https://i.imgur.com/ry6ttGZ.png" width="100%"/></button>
                 <div className={styles.text}>
                     <h3>{this.props.work.title}</h3>

@@ -59,3 +59,28 @@ button:hover {
     transition: 0.5s;
 }
 
+@media screen and (max-width: 800px) {
+    .container {
+        padding: 0% 0% 0% 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .projectImg {
+        width: 80%;
+        padding: 0;
+    }
+
+    button {
+        width: 10%;
+        margin: 0;
+        margin-left: 32%;
+    }
+
+    .text {
+        width: 75%;
+        text-align: center;
+        color: #4B4C4C;
+    }
+}
