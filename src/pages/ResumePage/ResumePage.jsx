@@ -7,7 +7,7 @@ function ResumePage() {
         <div>
             <h1 className={styles.title}>Resume</h1>
             <div className={styles.container}>
-                <img src="https://i.imgur.com/4cbTRrN.png" width="21%" />
+                <img src="https://i.imgur.com/1FdDlTh.png" width="21%" />
                 <div className={styles.download}>
                     <a href={resume} download="myamazaki-resume" >Download resume here</a>
                 </div>
