@@ -126,6 +126,7 @@ hr {
 
    .pfp {
       width: 50%;
+      height: 100%;
       position: relative;
    }
 
@@ -153,6 +154,8 @@ hr {
    }
   
    .emailIcon {
+      width: 10%;
+      height: 100%;
       margin-left: -5%;
    }
 }
