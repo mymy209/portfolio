@@ -10,10 +10,10 @@ function HomePage() {
             </h1>
             <div className={styles.body}>
                 <div className={styles.imageContainer}>
-                    <img className={styles.pfp} src="https://i.imgur.com/VTk76ea.jpg" width="200px"/>
+                    <img className={styles.pfp} src="https://i.imgur.com/le0f3IR.jpg" width="200px" alt="profile"/>
                     <div className={styles.box}/>
                     <div className={styles.contact}>
-                        <img className={styles.emailIcon} src="https://i.imgur.com/xMwUsuL.png" width="80px"></img>
+                        <img className={styles.emailIcon} src="https://i.imgur.com/xMwUsuL.png" width="80px" alt="emailIcon"></img>
                         <span className={styles.email}><p>myramaronhime@gmail.com</p></span>
                     </div>
                 </div>
