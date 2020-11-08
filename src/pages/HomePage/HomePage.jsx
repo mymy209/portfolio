@@ -20,7 +20,11 @@ function HomePage() {
                 <div className={styles.about}>
                     <h3>About</h3>
                     <hr/>
-                    <p>I am a software developer eager to share her passion for technology-based entertainment such as games and animation. Sharing my unique perspective and ideas with others drives me to bring innovation to digital products. It’s this satisfying and rewarding process that makes me want to challenge myself and enables me to push my limits as a software developer to fill this world with joy!</p>
+                    <p>Leveraging my passion for animations and games, I decided to advance in the technical field for my career. 
+                        I believe that technology should be something that is secure in the back end, and entertaining in the front end. 
+                        Growing up in Japan when I was younger, I was on the side of receiving technological entertainments -- which gave me a chance to bond with others and make priceless memories with them. 
+                        Being able to be on the side of provider now, it is my goal to keep challenging myself as a software engineer to fill this world with joy!
+                    </p>
                 </div>
                 <div className={styles.skillsContainer}>
                     <h3>Skills</h3>
