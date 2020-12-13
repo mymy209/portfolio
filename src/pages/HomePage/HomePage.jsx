@@ -6,7 +6,7 @@ function HomePage() {
         <div>
             <h1 className={styles.title}>
                 Hello, my name is Myra Yamazaki.<br/>
-                I'm a full-stack software engineer based in Palmdale, CA. 
+                I'm a full-stack software engineer based in Southern California. 
             </h1>
             <div className={styles.body}>
                 <div className={styles.imageContainer}>
