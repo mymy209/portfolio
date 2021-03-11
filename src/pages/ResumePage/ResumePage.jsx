@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './ResumePage.module.css';
-import resume from '../../resume/Resume.pdf';
+import resume from '../../resume/Resume(2).pdf';
 
 function ResumePage() {
     return (
